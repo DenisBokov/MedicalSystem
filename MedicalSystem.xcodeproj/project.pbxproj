@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EFBC886028EA1860004B13F3 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBC885F28EA1860004B13F3 /* RegisterView.swift */; };
+		EFBC886328EAC213004B13F3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBC886228EAC213004B13F3 /* User.swift */; };
 		EFF91D3928E974B400D11A60 /* MedicalSystemApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF91D3828E974B400D11A60 /* MedicalSystemApp.swift */; };
 		EFF91D3B28E974B400D11A60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF91D3A28E974B400D11A60 /* ContentView.swift */; };
 		EFF91D3D28E974B500D11A60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFF91D3C28E974B500D11A60 /* Assets.xcassets */; };
 		EFF91D4028E974B500D11A60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFF91D3F28E974B500D11A60 /* Preview Assets.xcassets */; };
 		EFF91D4228E974B500D11A60 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF91D4128E974B500D11A60 /* Persistence.swift */; };
 		EFF91D4528E974B500D11A60 /* MedicalSystem.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EFF91D4328E974B500D11A60 /* MedicalSystem.xcdatamodeld */; };
+		EFF91D4C28E9752400D11A60 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF91D4B28E9752400D11A60 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EFBC885F28EA1860004B13F3 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		EFBC886228EAC213004B13F3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		EFF91D3528E974B400D11A60 /* MedicalSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicalSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFF91D3828E974B400D11A60 /* MedicalSystemApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalSystemApp.swift; sourceTree = "<group>"; };
 		EFF91D3A28E974B400D11A60 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +28,7 @@
 		EFF91D3F28E974B500D11A60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EFF91D4128E974B500D11A60 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		EFF91D4428E974B500D11A60 /* MedicalSystem.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MedicalSystem.xcdatamodel; sourceTree = "<group>"; };
+		EFF91D4B28E9752400D11A60 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EFBC886128EAC1D5004B13F3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EFBC886228EAC213004B13F3 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		EFF91D2C28E974B400D11A60 = {
 			isa = PBXGroup;
 			children = (
@@ -55,10 +69,13 @@
 		EFF91D3728E974B400D11A60 /* MedicalSystem */ = {
 			isa = PBXGroup;
 			children = (
+				EFBC886128EAC1D5004B13F3 /* Models */,
 				EFF91D3828E974B400D11A60 /* MedicalSystemApp.swift */,
 				EFF91D3A28E974B400D11A60 /* ContentView.swift */,
 				EFF91D3C28E974B500D11A60 /* Assets.xcassets */,
 				EFF91D4128E974B500D11A60 /* Persistence.swift */,
+				EFF91D4B28E9752400D11A60 /* LoginView.swift */,
+				EFBC885F28EA1860004B13F3 /* RegisterView.swift */,
 				EFF91D4328E974B500D11A60 /* MedicalSystem.xcdatamodeld */,
 				EFF91D3E28E974B500D11A60 /* Preview Content */,
 			);
@@ -146,7 +163,10 @@
 				EFF91D4228E974B500D11A60 /* Persistence.swift in Sources */,
 				EFF91D3B28E974B400D11A60 /* ContentView.swift in Sources */,
 				EFF91D4528E974B500D11A60 /* MedicalSystem.xcdatamodeld in Sources */,
+				EFBC886028EA1860004B13F3 /* RegisterView.swift in Sources */,
+				EFF91D4C28E9752400D11A60 /* LoginView.swift in Sources */,
 				EFF91D3928E974B400D11A60 /* MedicalSystemApp.swift in Sources */,
+				EFBC886328EAC213004B13F3 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
