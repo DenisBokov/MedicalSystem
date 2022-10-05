@@ -12,10 +12,14 @@ class User {
     let lastName: String = ""
     let middleName: String = ""
     let birthDay: String = ""
-    
+    let auth: Authentication
     
     var fullName: String {
         "\(firstName) \(lastName) \(middleName)"
+    }
+    
+    init(auth: Authentication) {
+        self.auth = auth
     }
 }
 
@@ -23,3 +27,4 @@ class Authentication {
     var email: String = ""
     var password: String = ""
 }
+ 

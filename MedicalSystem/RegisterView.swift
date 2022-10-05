@@ -9,7 +9,19 @@ import SwiftUI
 
 struct RegisterView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("Регистрация")
+                .fontWeight(.heavy)
+                .font(.largeTitle)
+                .padding([.top, .bottom], 20)
+            
+            VStack(alignment: .leading) {
+                Text("Email")
+                    .font(.headline)
+                    .fontWeight(.light)
+                    .foregroundColor(Color.init(.label)).opacity(0.75)
+            }
+        }
     }
 }
 
